@@ -1,8 +1,7 @@
 # list2
 
 the app include
-- crawler
-- mysql to store and sort FA
-- TA
-- simu trade with chat and log?
-- 
+- stock symbols (true stock)
+- crawler to pull earning growth, price/sales ratios and save to mysql
+- price relative strength (price/131 moving average)
+- sort according to percentage
