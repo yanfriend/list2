@@ -6,6 +6,8 @@ the app include
 - price relative strength (price/131 moving average)
 - sort according to percentage
 
+geckodriver download:
+https://github.com/mozilla/geckodriver/releases
 
 refer:
 DROP TABLE IF EXISTS `alldata`;
