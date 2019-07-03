@@ -19,7 +19,7 @@ def parse_psr_from_yahoo(ticker):
 				return float(cols[1].text)
 		return 0
 	except Exception as e:
-		raise Exception("Failed to get yahoo psr data", e)
+		print("Failed to get yahoo psr data", e)
 
 
 if __name__=="__main__":

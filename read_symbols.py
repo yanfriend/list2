@@ -25,7 +25,8 @@ def get_all_prs():
         for row in row_batch:
             try:
                 symbol = row[0]
-                print('Data: {}: {}'.format(symbol, parse_psr_from_yahoo(symbol)))
+                psr = parse_psr_from_yahoo(symbol)
+                print('Data: {}: {}'.format(symbol, psr))
 
             except Exception as e:
                 print("Error: ", e, row[0])
