@@ -2,6 +2,7 @@
 -- create database, and raw_symbols table; and load from csv files
 
 create database finance;
+use finance;
 
 CREATE TABLE `raw_symbols` (
   `symbol` varchar(10) COLLATE utf8mb4_general_ci NOT NULL DEFAULT '',
@@ -20,6 +21,8 @@ SHOW VARIABLES LIKE 'local_infile';
 SET GLOBAL local_infile = 1;
 
 LOAD DATA local INFILE '/Users/yanzhi_bai/repos/list2/companylist.csv'  INTO TABLE raw_symbols  FIELDS TERMINATED BY ',' ENCLOSED BY '"'  LINES TERMINATED BY '\n'  IGNORE 1 ROWS;
+--or 
+LOAD DATA local INFILE '/Users/baifriend/repos/list2/metadata/companylist-2.csv'  INTO TABLE raw_symbols  FIELDS TERMINATED BY ',' ENCLOSED BY '"'  LINES TERMINATED BY '\n'  IGNORE 1 ROWS;
 
 
 -- list_symbols table, and insert data 
@@ -44,6 +47,8 @@ CREATE TABLE `list2_symbols` (
    earning_5 float,  -- most recent
    earning_growth float,
    earning_growth_percentage float,
+
+   updated_at datetime,
 
   KEY `symbol_index` (`symbol`)
 ) 
