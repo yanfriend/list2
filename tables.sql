@@ -55,14 +55,14 @@ CREATE TABLE `list2_symbols` (
 
 insert into list2_symbols(symbol,sector,industry,market_cap_m)
 select  
-           symbol, 
-           sector, 
-           industry,
-             CASE 
-              WHEN market_cap like '%M' THEN cast(TRIM(LEADING '$' FROM market_cap) as decimal(20,3))
-              WHEN market_cap like '%B' THEN cast(TRIM(LEADING '$' FROM market_cap) as decimal(20,3))*1000
-              ELSE cast(TRIM(LEADING '$' FROM market_cap) as decimal(20,3))/1000000
-             END as market_cap_m
+    symbol,
+    sector,
+    industry,
+    CASE
+      WHEN market_cap like '%M' THEN cast(TRIM(LEADING '$' FROM market_cap) as decimal(20,3))
+      WHEN market_cap like '%B' THEN cast(TRIM(LEADING '$' FROM market_cap) as decimal(20,3))*1000
+      ELSE cast(TRIM(LEADING '$' FROM market_cap) as decimal(20,3))/1000000
+    END as market_cap_m
 from raw_symbols
 where 
 sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
@@ -72,5 +72,35 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
 --note: decimal(total digits, after dot digits)
 
 
+-- todo:
+-- 1, dump 5k symbols out
+    -- add this in if security reason:
+    --~/repos/list2(master ✗) sudo cat  /etc/my.cnf
+    --[mysqld]
+    --secure_file_priv  = ''
+    SELECT symbol FROM list2_symbols
+    INTO OUTFILE '/Users/baifriend/repos/list2/symbols.csv' FIELDS TERMINATED BY ','  LINES TERMINATED BY '\n';
+
+--
+--2, get price data in (may need to add a new field for percentage)
+-- CREATE TEMPORARY TABLE temp_update_table (meta_key, meta_value)
+--
+--LOAD DATA INFILE 'your_csv_pathname'
+--INTO TABLE temp_update_table FIELDS TERMINATED BY ';' (meta_key, meta_value);
+--
+--UPDATE "table"
+--INNER JOIN temp_update_table on temp_update_table.meta_key = "table".meta_key
+--SET "table".meta_value = temp_update_table.meta_value;
+--
+--DROP TEMPORARY TABLE temp_update_table;
+
+-- 3, update percentages data
+
+
+-- 4, sort by percentage, and query.
+
+--SELECT *, price/(erecent+emid3) as pe
+--FROM `list2_`
+--where cegrow>=90 and cpratio>=90 and cpps<=30
 
 
