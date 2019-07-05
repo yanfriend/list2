@@ -9,6 +9,11 @@ the app include
 geckodriver download:
 https://github.com/mozilla/geckodriver/releases
 
+Solution to load/output data:
+In /etc/mysql/my.cnf add below 
+[mysqld]
+secure-file-priv = ""
+
 refer:
 DROP TABLE IF EXISTS `alldata`;
 CREATE TABLE `alldata` (
