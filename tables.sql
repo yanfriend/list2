@@ -48,6 +48,8 @@ CREATE TABLE `list2_symbols` (
    earning_growth float,
    earning_growth_percentage float,
 
+   exception varchar(100),
+
    updated_at datetime,
 
   KEY `symbol_index` (`symbol`)

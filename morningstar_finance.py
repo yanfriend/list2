@@ -33,8 +33,12 @@ def parse_earning_from_morningstar(driver, ticker):
 		return ret
 
 	except Exception as e:
+		# PSR
+		# Data: GLDI: 0
+		# ('Error: ', JavascriptException(), 'GLDI') # todo: handle this js exception
 		raise e  # todo: add morningstart info
 		# print("Failed to get morningstar earning data", e)
+
 
 
 if __name__=="__main__":

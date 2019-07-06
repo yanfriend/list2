@@ -3,6 +3,7 @@ from yahoo_finance import parse_psr_from_yahoo
 import morningstar_finance
 import time
 from datetime import datetime
+import json
 
 
 def chunks(l, n):
@@ -16,7 +17,7 @@ def get_all_data():
     cursor = db.cursor()
 
     table_name = 'list2_symbols'
-    sql = "SELECT * FROM {table_name} ".format(table_name=table_name)
+    sql = "SELECT * FROM {table_name} limit 3460, 5000 ".format(table_name=table_name)  # todo, remove offset
 
     cursor.execute(sql)
     results = cursor.fetchall()
@@ -24,9 +25,12 @@ def get_all_data():
     driver = morningstar_finance.get_driver()
 
     yahoo_success = morningstar_success = failure = 0
+    cnt = 0
+
     for row_batch in chunks(results, 10):
         for row in row_batch:
             try:
+                cnt += 1
                 symbol = row[0]
                 psr = parse_psr_from_yahoo(symbol)
                 yahoo_success += 1
@@ -58,14 +62,37 @@ def get_all_data():
                     symbol = symbol,
                     updated_at = updated_at
                 )
-                print(update_sql)
+                # print(update_sql)
                 cursor.execute(update_sql)
+
             except Exception as e:
                 print("Error: ", e, row[0])
                 failure += 1
+                
+                try:
+                    exception = json.dumps(e.message)
+                except Exception as e1:
+                    exception = '"{}"'.format(str(e))
+                exception = exception if exception!='""' else '"{}"'.format(str(e))
+                update_sql = 'update {table_name} ' \
+                             'set exception = {exception}' \
+                             ' where symbol="{symbol}"'.format(
+                    table_name = table_name,
+                    exception = exception,
+                    symbol = row[0])
+                print(update_sql)
+                cursor.execute(update_sql)
+
+            if cnt % 25 == 0:
+                driver.quit()
+                print('Restarting Firefox driver')
+                time.sleep(10)
+                driver = morningstar_finance.get_driver()  # reset driver
+
             print('')
-        print('Committing to db')
+        # print('Committing to db')
         db.commit() # for each 10 records.
+
     driver.quit()
 
     # disconnect from server
