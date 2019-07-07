@@ -1,0 +1,41 @@
+// usage: save as list2_scan.afl file
+// Amibroker download most recent data; database is located: C:\Program Files (x86)\AmiBroker2018\List2Data
+// Amibroker -> scan -> all symbols -> range to 1 recent bar
+
+wlnum = GetOption( "FilterIncludeWatchlist" );
+List = CategoryGetSymbols( categoryAll , wlnum ) ;
+tdy_datetime1=Now(5);//format "datetime()" same as for CBT ".entrydatetime"
+
+if( Status( "stocknum" ) == 0 )
+{
+    
+    filepath1= "C:\\"+datetimeToStr(tdy_datetime1,4)+"_LIST2.txt";
+    fdelete( filepath1 );
+	fh = fopen( filepath1, "a", True );
+    //categoryList = ",";
+	
+    for( n = 0; ( Symbol = StrExtract( List, n ) )  != "";  n++ )
+    {
+        SetForeign( symbol,fixup=1,False);
+        
+        LastDataDate = endValue( DateTime() );
+		DifferenceInDays = floor(DateTimeDiff(tdy_datetime1,lastDataDate)/(24*60*60));
+		//checklastquote = DifferenceInDays>=7;
+        if (DifferenceInDays>7) {
+			continue;
+        }
+        
+        lastclose = LastValue(C);
+        close131 = LastValue(MA(C, 131));
+        RestorePriceArrays(False);
+		
+		priceRatio = "";
+		if (close131 > 0.0000001) {
+		    priceRatio = NumToStr(lastclose/close131, 1.6, False);
+		}
+        fputs(symbol+"," + NumToStr(lastclose, 1.3, False) + "," 
+           + NumToStr(close131, 1.3, False) + "," 
+           + priceRatio + "\n" ,fh);
+    }
+    fclose( fh );	
+}
