@@ -115,10 +115,10 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
     drop temporary table price_temp;
     
 -- 3, calculate ratios, and update percentages data
+-- price_ration, psr(price sales ration) have been calucalted; need earning_growth_ratio; then all percentages.
 
 
 -- 4, sort by percentage, and query.
-
 --SELECT *, price/(erecent+emid3) as pe
 --FROM `list2_`
 --where cegrow>=90 and cpratio>=90 and cpps<=30
