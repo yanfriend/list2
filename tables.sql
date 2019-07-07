@@ -83,6 +83,9 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
     SELECT symbol FROM list2_symbols
     INTO OUTFILE '/Users/baifriend/repos/list2/symbols.csv' FIELDS TERMINATED BY ','  LINES TERMINATED BY '\n';
 
+-- 1.1, transfer downloaded data among computers:
+mysql> select * from list2_symbols into OUTFILE '/Users/baifriend/repos/list2/list_fundamental.csv' FIELDS TERMINATED BY ','  LINES TERMINATED BY '\n';
+
 --
 --2, get price data in (may need to add a new field for percentage)
 -- CREATE TEMPORARY TABLE temp_update_table (meta_key, meta_value)
