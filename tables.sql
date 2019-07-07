@@ -79,9 +79,11 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
 -- steps:
 -- 1, dump 5k symbols out
     -- add this in if security reason:
-    --~/repos/list2(master ✗) sudo cat  /etc/my.cnf
+    --~/repos/list2(master ✗) sudo cat  /etc/my.cnf # or /etc/mysql/my.cnf
     --[mysqld]
     --secure_file_priv  = ''
+    --[client]
+    --loose-local-infile=1
     --and in client:
     --mysql> SET GLOBAL local_infile = 1; 
     --mysql> SHOW VARIABLES LIKE 'local_infile'; 
@@ -93,10 +95,10 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
 
 -- Optional
 -- 1.1, transfer downloaded data among computers, export into a file:
-    select * from list2_symbols into OUTFILE '/Users/baifriend/repos/list2/list_fundamental.csv' 
+    select * from list2_symbols into OUTFILE '/Users/baifriend/repos/list2/list2_all_data.csv' 
     FIELDS TERMINATED BY ','  LINES TERMINATED BY '\n';
 -- 1.2, load back to table
-    LOAD DATA local INFILE '/Users/yanzhi_bai/repos/list2/list_fundamental.csv'  INTO TABLE list2_symbols  
+    LOAD DATA local INFILE '/Users/yanzhi_bai/repos/list2/list2_all_data.csv'  INTO TABLE list2_symbols  
     FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
 
 
