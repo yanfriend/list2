@@ -82,6 +82,12 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
     --~/repos/list2(master ✗) sudo cat  /etc/my.cnf
     --[mysqld]
     --secure_file_priv  = ''
+    --and in client:
+    --mysql> SET GLOBAL local_infile = 1; 
+    --mysql> SHOW VARIABLES LIKE 'local_infile'; 
+    --+---------------+-------+ | Variable_name | Value | 
+    --+---------------+-------+ | local_infile | ON | 
+    
     SELECT symbol FROM list2_symbols
     INTO OUTFILE '/Users/baifriend/repos/list2/symbols.csv' FIELDS TERMINATED BY ','  LINES TERMINATED BY '\n';
 
