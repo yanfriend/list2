@@ -36,11 +36,11 @@ CREATE TABLE `list2_symbols` (
 
   `last_close` float DEFAULT NULL,  
   `ma_131` float DEFAULT NULL,  
+   price_ratio float,
+   price_percentage float,
 
    psr float,
    psr_percentage float,
-   price_ratio float,
-   price_percentage float,
 
    earning_1 float,
    earning_2 float,
