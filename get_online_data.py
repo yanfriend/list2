@@ -17,7 +17,8 @@ def get_all_data():
     cursor = db.cursor()
 
     table_name = 'list2_symbols'
-    sql = "SELECT * FROM {table_name} limit 3460, 5000 ".format(table_name=table_name)  # todo, remove offset
+    sql = "SELECT * FROM {table_name} ".format(table_name=table_name)
+    # sql = "SELECT * FROM {table_name} limit 3460, 5000 ".format(table_name=table_name)
 
     cursor.execute(sql)
     results = cursor.fetchall()
