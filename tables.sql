@@ -36,6 +36,8 @@ CREATE TABLE `list2_symbols` (
 
   `last_close` float DEFAULT NULL,  
   `ma_131` float DEFAULT NULL,  
+   price_ratio float,
+   price_percentage float,
 
    psr float,
    psr_percentage float,
@@ -74,29 +76,45 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
 --note: decimal(total digits, after dot digits)
 
 
--- todo:
+-- steps:
 -- 1, dump 5k symbols out
     -- add this in if security reason:
     --~/repos/list2(master ✗) sudo cat  /etc/my.cnf
     --[mysqld]
     --secure_file_priv  = ''
+    --and in client:
+    --mysql> SET GLOBAL local_infile = 1; 
+    --mysql> SHOW VARIABLES LIKE 'local_infile'; 
+    --+---------------+-------+ | Variable_name | Value | 
+    --+---------------+-------+ | local_infile | ON | 
+    
     SELECT symbol FROM list2_symbols
     INTO OUTFILE '/Users/baifriend/repos/list2/symbols.csv' FIELDS TERMINATED BY ','  LINES TERMINATED BY '\n';
 
---
---2, get price data in (may need to add a new field for percentage)
--- CREATE TEMPORARY TABLE temp_update_table (meta_key, meta_value)
---
---LOAD DATA INFILE 'your_csv_pathname'
---INTO TABLE temp_update_table FIELDS TERMINATED BY ';' (meta_key, meta_value);
---
---UPDATE "table"
---INNER JOIN temp_update_table on temp_update_table.meta_key = "table".meta_key
---SET "table".meta_value = temp_update_table.meta_value;
---
---DROP TEMPORARY TABLE temp_update_table;
+-- Optional
+-- 1.1, transfer downloaded data among computers, export into a file:
+    select * from list2_symbols into OUTFILE '/Users/baifriend/repos/list2/list_fundamental.csv' 
+    FIELDS TERMINATED BY ','  LINES TERMINATED BY '\n';
+-- 1.2, load back to table
+    LOAD DATA local INFILE '/Users/yanzhi_bai/repos/list2/list_fundamental.csv'  INTO TABLE list2_symbols  
+    FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
 
--- 3, update percentages data
+
+--2, get price data in (from Amibroker)
+    create temporary table price_temp (symbol varchar(10),  `last_close` float,   
+    `ma_131` float DEFAULT NULL, price_ratio float);
+    
+    LOAD DATA local INFILE '/Users/yanzhi_bai/repos/list2/2019-07-06_LIST2.txt'  INTO TABLE price_temp  
+    FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
+
+    update list2_symbols INNER JOIN  price_temp on price_temp.symbol = list2_symbols.symbol 
+    set list2_symbols.last_close=price_temp.last_close, 
+    list2_symbols.ma_131=price_temp.ma_131, 
+    list2_symbols.price_ratio=price_temp.price_ratio;
+
+    drop temporary table price_temp;
+    
+-- 3, calculate ratios, and update percentages data
 
 
 -- 4, sort by percentage, and query.

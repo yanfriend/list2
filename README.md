@@ -14,6 +14,26 @@ In /etc/mysql/my.cnf add below
 [mysqld]
 secure-file-priv = ""
 
+load data error solution 2:
+mysql> SHOW VARIABLES LIKE 'local_infile';
++---------------+-------+
+| Variable_name | Value |
++---------------+-------+
+| local_infile  | OFF   |
++---------------+-------+
+1 row in set (0.01 sec)
+
+mysql> SET GLOBAL local_infile = 1;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> SHOW VARIABLES LIKE 'local_infile';
++---------------+-------+
+| Variable_name | Value |
++---------------+-------+
+| local_infile  | ON    |
++---------------+-------+
+1 row in set (0.00 sec)
+
 refer:
 DROP TABLE IF EXISTS `alldata`;
 CREATE TABLE `alldata` (
