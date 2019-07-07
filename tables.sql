@@ -39,6 +39,8 @@ CREATE TABLE `list2_symbols` (
 
    psr float,
    psr_percentage float,
+   price_ratio float,
+   price_percentage float,
 
    earning_1 float,
    earning_2 float,
