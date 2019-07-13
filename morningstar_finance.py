@@ -6,10 +6,13 @@ from selenium import webdriver
 import time
 import os
 
+from selenium.webdriver.firefox.options import Options
 
 def get_driver():
 	dirpath = os.getcwd() + '/geckodriver'
-	driver = webdriver.Firefox(executable_path=dirpath)
+        options = Options()
+        options.headless = True
+	driver = webdriver.Firefox(executable_path=dirpath, options=options)
 	return driver
 
 
