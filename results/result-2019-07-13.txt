@@ -1,0 +1,12 @@
+mysql> select symbol, last_close, updated_at from list2_symbols where earning_growth_percentage>=90 and price_percentage>=90 and psr_percentage<=30;
++--------+------------+---------------------+
+| symbol | last_close | updated_at          |
++--------+------------+---------------------+
+| LMB    |       9.01 | 2019-07-13 03:33:37 |
+| SFUN   |       2.64 | 2019-07-13 09:59:57 |, reversed split, out
+| IDT    |      11.26 | 2019-07-13 10:44:07 |
+| PARR   |      22.34 | 2019-07-13 12:04:34 |
+| SAH    |      23.43 | 2019-07-13 12:53:58 |
+| INT    |      35.97 | 2019-07-13 13:59:43 |
++--------+------------+---------------------+
+6 rows in set (0.01 sec)
