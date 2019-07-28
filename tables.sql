@@ -128,3 +128,5 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
        psr=null,psr_percentage=null, earning_1=null,earning_2=null, earning_3=null,earning_4=null,
        earning_5=null,earning_growth=null, earning_growth_percentage=null,exception=null, updated_at=null;
        
+-- create the backup table.
+    create table list2_symbols_7_22_2019 select * from list2_symbols;       
