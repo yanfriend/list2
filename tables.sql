@@ -123,3 +123,10 @@ sector<>'n/a' and industry<>'n/a' and market_cap<>'n/a'
 -- 4, sort by percentage, and query.
     select * from list2_symbols where earning_growth_percentage>=90 and price_percentage>=90 and psr_percentage<=30;
 
+-- clean dynamic data for next update:
+    update list2_symbols set last_close=null, ma_131=null, price_ratio=null, price_percentage=null,
+       psr=null,psr_percentage=null, earning_1=null,earning_2=null, earning_3=null,earning_4=null,
+       earning_5=null,earning_growth=null, earning_growth_percentage=null,exception=null, updated_at=null;
+       
+-- create the backup table.
+    create table list2_symbols_7_22_2019 select * from list2_symbols;       
