@@ -1,0 +1,24 @@
+ALERTS for 2019/11/06 **********************
+Euro-Schatz(EUREX), Dec19, today close price is lower than 20 days low:112.01
+3-Mth Euribor(LIFFE), Mar20, today close price is lower than 20 days low:100.415
+30 Day Federal Funds(CBOT), Nov19, today close price is higher than 20 days high:98.425
+Ethanol(CBOT), Dec19, today close price is lower than 20 days low:1.373
+Coffee "C"(ICE), Dec19, today close price is higher than 20 days high:108.0
+Nikkei 225 Mini(JPX), Dec19, today close price is higher than 20 days high:23320.0
+Oats(CBOT), Dec19, today close price is higher than 20 days high:307.0
+Soybeans(CBOT), Jan20, today close price is lower than 20 days low:927.5
+Euro-Bobl(EUREX), Dec19, today close price is lower than 20 days low:134.34
+10-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:98.73
+Corn(CBOT), Dec19, today close price is lower than 20 days low:378.75
+Nikkei 225(SGX), Dec19, today close price is higher than 20 days high:23315.0
+3-Mth Aus T-Bills(SFE), Jun20, today close price is lower than 20 days low:99.12
+KOSPI 200(KFE), Dec19, today close price is higher than 20 days high:284.95
+Mini-DAX(EUREX), Dec19, today close price is higher than 20 days high:13166.5
+Wheat(MGE), Dec19, today close price is lower than 20 days low:523.25
+E-mini DJIA Index(CBOT), Dec19, today close price is higher than 20 days high:27430.0
+Nikkei 225(JPX), Dec19, today close price is higher than 20 days high:23320.0
+DAX(EUREX), Dec19, today close price is higher than 20 days high:13166.5
+3-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:99.11
+Japanese Govt Bonds(SGX), Dec19, today close price is lower than 20 days low:153.67
+DJ EuroSTOXX 50(EUREX), Dec19, today close price is higher than 20 days high:3679.0
+Soybean Meal(CBOT), Dec19, today close price is lower than 20 days low:298.9

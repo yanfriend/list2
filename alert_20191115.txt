@@ -1,0 +1,13 @@
+ALERTS for 2019/11/15 **********************
+S & P 500(CME), Dec19, today close price is higher than 20 days high:3096.9
+Brazilian Real(CME), Dec19, today close price is lower than 20 days low:238.45
+Canadian Dollar(CME), Dec19, today close price is lower than 20 days low:75.44
+Volatility Index(CBOE), Oct19, today close price is higher than 20 days high:13.78
+Volatility Index(CBOE), Oct19, today close price is lower than 20 days low:13.78
+Australian Dollar(CME), Dec19, today close price is lower than 20 days low:67.9
+e-miNY Crude Oil(NYM), Nov19, today close price is lower than 20 days low:53.3
+Lean Hogs(CME), Dec19, today close price is lower than 20 days low:62.75
+Copper(CMX), Dec19, today close price is lower than 20 days low:262.15
+Wheat(MGE), Dec19, today close price is lower than 20 days low:512.75
+Cocoa(ICE), Mar20, today close price is higher than 20 days high:2669.0
+S & P 500 E-Mini(CME), Dec19, today close price is higher than 20 days high:3097.0

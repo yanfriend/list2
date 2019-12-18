@@ -1,0 +1,17 @@
+ALERTS for 2019/11/22 **********************
+WTI Crude Oil(ICE), Jan20, today close price is higher than 20 days high:58.58
+Brent Crude Oil(ICE), Jan20, today close price is higher than 20 days high:63.97
+30 Day Federal Funds(CBOT), Jan20, today close price is lower than 20 days low:98.455
+FT-SE 100(EURONEXT), Dec19, today close price is lower than 20 days low:7230.0
+Coffee "C"(ICE), Mar20, today close price is higher than 20 days high:116.25
+London Sugar(LCE), Dec19, today close price is lower than 20 days low:322.7
+Australian Dollar(CME), Dec19, today close price is lower than 20 days low:67.88
+Soybeans(CBOT), Jan20, today close price is lower than 20 days low:901.0
+Cotton(ICE), Mar20, today close price is lower than 20 days low:64.01
+e-miNY Crude Oil(NYM), Jan20, today close price is higher than 20 days high:58.575
+RBOB Gasoline(NYM), Jan20, today close price is higher than 20 days high:169.83
+Wheat(MGE), Dec19, today close price is lower than 20 days low:495.25
+Hang Seng Index(HKFE), Oct19, today close price is lower than 20 days low:26674.0
+Rough Rice(CBOT), Jan20, today close price is higher than 20 days high:12.24
+Crude Oil(NYM), Jan20, today close price is higher than 20 days high:58.58
+CAC 40(EURONEXT), Nov19, today close price is higher than 20 days high:5930.0

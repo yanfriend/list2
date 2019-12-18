@@ -1,0 +1,21 @@
+ALERTS for 2019/11/18 **********************
+WTI Crude Oil(ICE), Jan20, today close price is higher than 20 days high:57.83
+S & P 500(CME), Dec19, today close price is higher than 20 days high:3118.3
+Brent Crude Oil(ICE), Jan20, today close price is higher than 20 days high:63.3
+Volatility Index(CBOE), Nov19, today close price is lower than 20 days low:12.98
+Wheat(CBOT), Dec19, today close price is lower than 20 days low:502.75
+Wheat(KCBT), Dec19, today close price is lower than 20 days low:417.0
+NASDAQ 100 E-Mini(CME), Dec19, today close price is higher than 20 days high:8318.75
+e-miNY Crude Oil(NYM), Nov19, today close price is lower than 20 days low:53.3
+SPI 200(SFE), Dec19, today close price is higher than 20 days high:6797.0
+Corn(CBOT), Dec19, today close price is lower than 20 days low:371.25
+KOSPI 200(KFE), Dec19, today close price is higher than 20 days high:288.1
+Wheat(MGE), Dec19, today close price is lower than 20 days low:503.75
+E-mini DJIA Index(CBOT), Dec19, today close price is higher than 20 days high:27953.0
+S&P Midcap 400(CME) e-Mini, Dec19, today close price is higher than 20 days high:2001.1
+Soybean Oil(CBOT), Dec19, today close price is lower than 20 days low:30.43
+3-Mth Short Sterling(LIFFE), Mar20, today close price is higher than 20 days high:99.29
+Crude Oil(NYM), Dec19, today close price is higher than 20 days high:57.72
+Cocoa(ICE), Mar20, today close price is higher than 20 days high:2681.0
+CAC 40(EURONEXT), Nov19, today close price is higher than 20 days high:5930.0
+S & P 500 E-Mini(CME), Dec19, today close price is higher than 20 days high:3118.25

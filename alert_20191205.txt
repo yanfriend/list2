@@ -1,0 +1,13 @@
+ALERTS for 2019/12/05 **********************
+3-Mth Euribor(LIFFE), Mar20, today close price is higher than 20 days high:100.41
+Palladium(NYMEX), Mar20, today close price is higher than 20 days high:1845.4
+Orange Juice(ICE), Jan20, today close price is lower than 20 days low:95.45
+London Sugar(LCE), Mar20, today close price is higher than 20 days high:346.6
+US Dollar Index(ICE), Dec19, today close price is lower than 20 days low:97.603
+e-miNY RBOB Gasoline(NYM), Jan20, today close price is higher than 20 days high:160.4
+e-miNY RBOB Gasoline(NYM), Jan20, today close price is lower than 20 days low:160.4
+British Pound(CME), Dec19, today close price is higher than 20 days high:131.03
+SPI 200(SFE), Dec19, today close price is lower than 20 days low:6611.0
+KOSPI 200(KFE), Dec19, today close price is lower than 20 days low:274.8
+Sugar #11(ICE), Mar20, today close price is higher than 20 days high:13.06
+CAC 40(EURONEXT), Nov19, today close price is higher than 20 days high:5930.0

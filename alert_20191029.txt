@@ -1,0 +1,22 @@
+ALERTS for 2019/10/29 **********************
+Euro-Schatz(EUREX), Dec19, today close price is lower than 20 days low:112.03
+Nikkei 225(CME) e-Mini Yen, Dec19, today close price is higher than 20 days high:21680.0
+Nikkei 225(CME) e-Mini Yen, Dec19, today close price is lower than 20 days low:21680.0
+Orange Juice(ICE), Jan20, today close price is lower than 20 days low:97.85
+Nikkei 225 Mini(JPX), Dec19, today close price is higher than 20 days high:22850.0
+Lumber(CME), Jan20, today close price is higher than 20 days high:410.0
+Russell 2000 Mini(CME), Dec19, today close price is higher than 20 days high:1578.2
+Swiss Market Index(EUREX), Dec19, today close price is higher than 20 days high:10240.0
+10-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:98.82
+Natural Gas(NYM), Dec19, today close price is higher than 20 days high:2.639
+Copper(CMX), Dec19, today close price is higher than 20 days high:269.15
+RBOB Gasoline(NYM), Dec19, today close price is higher than 20 days high:164.16
+Nikkei 225(SGX), Dec19, today close price is higher than 20 days high:22850.0
+3-Mth Aus T-Bills(SFE), Sep20, today close price is lower than 20 days low:99.21
+Wheat(MGE), Dec19, today close price is lower than 20 days low:525.75
+Live Cattle(CME), Dec19, today close price is higher than 20 days high:116.83
+Nikkei 225(JPX), Dec19, today close price is higher than 20 days high:22850.0
+S&P Midcap 400(CME) e-Mini, Dec19, today close price is higher than 20 days high:1975.6
+3-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:99.19
+Japanese Govt Bonds(SGX), Dec19, today close price is lower than 20 days low:153.82
+Class III Milk(CME), Nov19, today close price is higher than 20 days high:19.86

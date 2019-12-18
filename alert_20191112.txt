@@ -1,0 +1,23 @@
+ALERTS for 2019/11/12 **********************
+S & P 500(CME), Dec19, today close price is higher than 20 days high:3091.9
+Feeder Cattle(CME), Jan20, today close price is higher than 20 days high:147.13
+EuroFX(CME), Dec19, today close price is lower than 20 days low:110.35
+Platinum(NYMEX), Jan20, today close price is lower than 20 days low:869.9
+Volatility Index(CBOE), Nov19, today close price is lower than 20 days low:13.88
+Euro-Bund(EUREX), Dec19, today close price is lower than 20 days low:169.54
+Euro-Buxl(EUREX), Dec19, today close price is lower than 20 days low:202.48
+Mexican Peso(CME), Dec19, today close price is lower than 20 days low:514.63
+Wheat(KCBT), Dec19, today close price is higher than 20 days high:438.75
+NASDAQ 100 E-Mini(CME), Dec19, today close price is higher than 20 days high:8275.0
+Soybeans(CBOT), Jan20, today close price is lower than 20 days low:917.0
+FTSE MIB(ISE), Dec19, today close price is higher than 20 days high:23761.0
+Mini-DAX(EUREX), Dec19, today close price is higher than 20 days high:13290.5
+Silver(CMX), Dec19, today close price is lower than 20 days low:1669.2
+DAX(EUREX), Dec19, today close price is higher than 20 days high:13290.5
+Long Gilt(LIFFE), Dec19, today close price is lower than 20 days low:130.25
+DJ EuroSTOXX 50(EUREX), Dec19, today close price is higher than 20 days high:3711.0
+Gold(CMX), Dec19, today close price is lower than 20 days low:1453.7
+Cocoa(ICE), Mar20, today close price is higher than 20 days high:2620.0
+London Cocoa(LCE), Mar20, today close price is higher than 20 days high:1934.0
+CAC 40(EURONEXT), Oct19, today close price is lower than 20 days low:5640.0
+S & P 500 E-Mini(CME), Dec19, today close price is higher than 20 days high:3092.0

@@ -1,0 +1,12 @@
+ALERTS for 2019/11/25 **********************
+Feeder Cattle(CME), Jan20, today close price is lower than 20 days low:139.285
+30 Day Federal Funds(CBOT), Jan20, today close price is lower than 20 days low:98.45
+Volatility Index(CBOE), Dec19, today close price is lower than 20 days low:14.78
+London Sugar(LCE), Dec19, today close price is lower than 20 days low:322.7
+Soybeans(CBOT), Jan20, today close price is lower than 20 days low:897.0
+Swiss Market Index(EUREX), Dec19, today close price is higher than 20 days high:10376.0
+Wheat(MGE), Mar20, today close price is lower than 20 days low:506.75
+Hang Seng Index(HKFE), Oct19, today close price is lower than 20 days low:26674.0
+Swiss Franc(CME), Dec19, today close price is lower than 20 days low:100.38
+3-Mth Short Sterling(LIFFE), Dec20, today close price is higher than 20 days high:99.35
+CAC 40(EURONEXT), Nov19, today close price is higher than 20 days high:5930.0

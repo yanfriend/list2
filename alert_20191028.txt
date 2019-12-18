@@ -1,0 +1,53 @@
+ALERTS for 2019/10/28 **********************
+WTI Crude Oil(ICE), Dec19, today close price is higher than 20 days high:56.66
+Euro-Schatz(EUREX), Dec19, today close price is lower than 20 days low:112.07
+Gas Oil(ICE), Dec19, today close price is higher than 20 days high:592.25
+S & P 500(CME), Dec19, today close price is higher than 20 days high:3020.3
+3-Mth Euribor(EUREX), Sep19, today close price is higher than 20 days high:100.395
+3-Mth Euribor(EUREX), Sep19, today close price is lower than 20 days low:100.395
+Brent Crude Oil(ICE), Dec19, today close price is higher than 20 days high:62.02
+Nikkei 225(CME) e-Mini Yen, Dec19, today close price is higher than 20 days high:21680.0
+Nikkei 225(CME) e-Mini Yen, Dec19, today close price is lower than 20 days low:21680.0
+Nikkei 225(CME), Dec19, today close price is higher than 20 days high:22835.0
+30-Year T-Bonds(CBOT), Dec19, today close price is lower than 20 days low:159.12
+Brazilian Real(CME), Oct19, today close price is lower than 20 days low:240.15
+Platinum(NYMEX), Jan20, today close price is higher than 20 days high:933.3
+Eurodollars(CME), Dec20, today close price is lower than 20 days low:98.435
+Canadian Dollar(CME), Dec19, today close price is higher than 20 days high:76.59
+Nikkei 225 Mini(JPX), Dec19, today close price is higher than 20 days high:22780.0
+Oats(CBOT), Dec19, today close price is higher than 20 days high:302.5
+Lumber(CME), Nov19, today close price is higher than 20 days high:403.3
+Mexican Peso(CME), Dec19, today close price is higher than 20 days high:520.75
+NASDAQ 100 E-Mini(CME), Dec19, today close price is higher than 20 days high:8035.75
+e-miNY Crude Oil(NYM), Dec19, today close price is higher than 20 days high:56.65
+Russell 2000 Mini(CME), Dec19, today close price is higher than 20 days high:1559.2
+Ultra 10-Yr T-Note(CBOT), Dec19, today close price is lower than 20 days low:140.275
+Swiss Market Index(EUREX), Sep19, today close price is higher than 20 days high:10127.0
+Swiss Market Index(EUREX), Sep19, today close price is lower than 20 days low:10127.0
+e-miNY RBOB Gasoline(NYM), Oct19, today close price is higher than 20 days high:165.14
+e-miNY RBOB Gasoline(NYM), Oct19, today close price is lower than 20 days low:165.14
+5-Year T-Notes(CBOT), Dec19, today close price is lower than 20 days low:118.226
+2 Year T-Notes(CBOT), Dec19, today close price is lower than 20 days low:107.204
+Copper(CMX), Dec19, today close price is higher than 20 days high:267.55
+RBOB Gasoline(NYM), Dec19, today close price is higher than 20 days high:163.56
+Nikkei 225(SGX), Dec19, today close price is higher than 20 days high:22790.0
+FTSE MIB(ISE), Dec19, today close price is higher than 20 days high:22545.0
+Mini-DAX(EUREX), Dec19, today close price is higher than 20 days high:12886.0
+10-Year T-Notes(CBOT), Dec19, today close price is lower than 20 days low:129.17
+Silver(CMX), Dec19, today close price is higher than 20 days high:1792.6
+Hang Seng Index(HKFE), Sep19, today close price is higher than 20 days high:25949.0
+Hang Seng Index(HKFE), Sep19, today close price is lower than 20 days low:25949.0
+S & P 600(CME), Dec19, today close price is higher than 20 days high:968.9
+Live Cattle(CME), Dec19, today close price is higher than 20 days high:116.08
+Nikkei 225(JPX), Dec19, today close price is higher than 20 days high:22780.0
+S&P Midcap 400(CME) e-Mini, Sep19, today close price is higher than 20 days high:1954.35
+S&P Midcap 400(CME) e-Mini, Sep19, today close price is lower than 20 days low:1954.35
+DAX(EUREX), Dec19, today close price is higher than 20 days high:12886.0
+Ultra T-Bond(CBOT), Dec19, today close price is lower than 20 days low:185.25
+3-Mth Short Sterling(LIFFE), Dec19, today close price is lower than 20 days low:99.21
+Nikkei 225(CME) Yen, Dec19, today close price is higher than 20 days high:22825.0
+DJ EuroSTOXX 50(EUREX), Sep19, today close price is higher than 20 days high:3565.0
+DJ EuroSTOXX 50(EUREX), Sep19, today close price is lower than 20 days low:3565.0
+Class III Milk(CME), Nov19, today close price is higher than 20 days high:19.55
+Crude Oil(NYM), Dec19, today close price is higher than 20 days high:56.66
+S & P 500 E-Mini(CME), Dec19, today close price is higher than 20 days high:3020.25

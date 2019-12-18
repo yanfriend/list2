@@ -1,0 +1,15 @@
+ALERTS for 2019/11/01 **********************
+Gas Oil(ICE), Dec19, today close price is lower than 20 days low:563.5
+Platinum(NYMEX), Jan20, today close price is higher than 20 days high:933.7
+Coffee "C"(ICE), Dec19, today close price is higher than 20 days high:101.95
+Australian Dollar(CME), Dec19, today close price is higher than 20 days high:68.96
+Canola(WCE), Jan20, today close price is lower than 20 days low:457.4
+NY Harbor ULSD(NYM), Dec19, today close price is lower than 20 days low:187.58
+3-Mth Aus T-Bills(SFE), Mar20, today close price is lower than 20 days low:99.12
+FTSE MIB(ISE), Dec19, today close price is higher than 20 days high:22662.0
+Silver(CMX), Dec19, today close price is higher than 20 days high:1806.7
+3-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:99.19
+Japanese Govt Bonds(SGX), Dec19, today close price is lower than 20 days low:153.72
+Gold(CMX), Dec19, today close price is higher than 20 days high:1514.8
+Cocoa(ICE), Dec19, today close price is lower than 20 days low:2403.0
+London Cocoa(LCE), Mar20, today close price is lower than 20 days low:1816.0

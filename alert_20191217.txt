@@ -1,0 +1,33 @@
+ALERTS for 2019/12/17 **********************
+WTI Crude Oil(ICE), Feb20, today close price is higher than 20 days high:60.87
+Euro-Schatz(EUREX), Dec19, today close price is higher than 20 days high:112.03
+3-Mth Euribor(LIFFE), Mar20, today close price is lower than 20 days low:100.395
+Gas Oil(ICE), Jan20, today close price is higher than 20 days high:613.5
+S & P 500(CME), Dec19, today close price is higher than 20 days high:3194.3
+3-Mth Euribor(EUREX), Mar20, today close price is lower than 20 days low:100.395
+Brent Crude Oil(ICE), Feb20, today close price is higher than 20 days high:66.1
+EuroFX(CME), Dec19, today close price is higher than 20 days high:111.53
+Eurodollars(CME), Mar20, today close price is lower than 20 days low:98.25
+Wheat(CBOT), Mar20, today close price is higher than 20 days high:556.25
+Mexican Peso(CME), Dec19, today close price is higher than 20 days high:527.13
+Wheat(KCBT), Mar20, today close price is higher than 20 days high:467.0
+Soybeans(CBOT), Jan20, today close price is higher than 20 days high:928.75
+e-miNY Crude Oil(NYM), Jan20, today close price is higher than 20 days high:60.95
+Russell 2000 Mini(CME), Mar20, today close price is higher than 20 days high:1660.7
+NY Harbor ULSD(NYM), Jan20, today close price is higher than 20 days high:203.34
+Corn(CBOT), Mar20, today close price is higher than 20 days high:390.0
+Copper(CMX), Mar20, today close price is higher than 20 days high:281.35
+Nikkei 225(SGX), Mar20, today close price is higher than 20 days high:23945.0
+FTSE MIB(ISE), Dec19, today close price is higher than 20 days high:23631.0
+KOSPI 200(KFE), Mar20, today close price is higher than 20 days high:291.7
+Wheat(MGE), Mar20, today close price is higher than 20 days high:538.75
+E-mini DJIA Index(CBOT), Mar20, today close price is higher than 20 days high:28284.0
+S&P Midcap 400(CME) e-Mini, Mar20, today close price is higher than 20 days high:2048.8
+Rough Rice(CBOT), Jan20, today close price is higher than 20 days high:12.68
+Soybean Oil(CBOT), Jan20, today close price is higher than 20 days high:33.82
+Ultra T-Bond(CBOT), Mar20, today close price is lower than 20 days low:183.2
+Japanese Govt Bonds(SGX), Mar20, today close price is lower than 20 days low:152.21
+Class III Milk(CME), Jan20, today close price is lower than 20 days low:16.96
+Crude Oil(NYM), Jan20, today close price is higher than 20 days high:60.94
+Japanese Yen(CME), Dec19, today close price is lower than 20 days low:91.34
+S & P 600(CME), Dec19, today close price is higher than 20 days high:1015.5

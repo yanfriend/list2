@@ -1,0 +1,32 @@
+ALERTS for 2019/11/10 **********************
+3-Mth Euribor(LIFFE), Jun20, today close price is lower than 20 days low:100.41
+S & P 500(CME), Dec19, today close price is higher than 20 days high:3090.6
+30-Year T-Bonds(CBOT), Dec19, today close price is lower than 20 days low:156.13
+EuroFX(CME), Dec19, today close price is lower than 20 days low:110.49
+Eurodollars(CME), Dec19, today close price is lower than 20 days low:98.085
+Canadian Dollar(CME), Dec19, today close price is lower than 20 days low:75.6
+Volatility Index(CBOE), Nov19, today close price is lower than 20 days low:14.28
+Coffee "C"(ICE), Dec19, today close price is higher than 20 days high:109.45
+Nikkei 225 Mini(JPX), Dec19, today close price is higher than 20 days high:23360.0
+Mexican Peso(CME), Dec19, today close price is higher than 20 days high:520.75
+NASDAQ 100 E-Mini(CME), Dec19, today close price is higher than 20 days high:8257.25
+e-miNY Crude Oil(NYM), Dec19, today close price is higher than 20 days high:57.25
+US Dollar Index(ICE), Dec19, today close price is higher than 20 days high:98.2
+Ultra 10-Yr T-Note(CBOT), Dec19, today close price is lower than 20 days low:139.03
+10-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:98.71
+Lean Hogs(CME), Dec19, today close price is lower than 20 days low:64.135
+Nikkei 225(SGX), Dec19, today close price is higher than 20 days high:23355.0
+FTSE MIB(ISE), Dec19, today close price is higher than 20 days high:23477.0
+Wheat(MGE), Dec19, today close price is lower than 20 days low:518.5
+10-Year T-Notes(CBOT), Dec19, today close price is lower than 20 days low:128.125
+Silver(CMX), Dec19, today close price is lower than 20 days low:1682.3
+Swiss Franc(CME), Dec19, today close price is lower than 20 days low:100.49
+Nikkei 225(JPX), Dec19, today close price is higher than 20 days high:23360.0
+Long Gilt(LIFFE), Dec19, today close price is lower than 20 days low:130.31
+3-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:99.11
+Ultra T-Bond(CBOT), Dec19, today close price is lower than 20 days low:181.08
+Japanese Govt Bonds(SGX), Dec19, today close price is lower than 20 days low:153.03
+Crude Oil(NYM), Dec19, today close price is higher than 20 days high:57.24
+Gold(CMX), Dec19, today close price is lower than 20 days low:1462.9
+CAC 40(EURONEXT), Oct19, today close price is lower than 20 days low:5640.0
+S & P 500 E-Mini(CME), Dec19, today close price is higher than 20 days high:3090.5

@@ -1,0 +1,27 @@
+ALERTS for 2019/11/04 **********************
+3-Mth Euribor(LIFFE), Dec19, today close price is lower than 20 days low:100.4
+S & P 500(CME), Dec19, today close price is higher than 20 days high:3075.7
+Brent Crude Oil(ICE), Jan20, today close price is higher than 20 days high:62.13
+Nikkei 225(CME), Dec19, today close price is higher than 20 days high:23140.0
+Feeder Cattle(CME), Jan20, today close price is higher than 20 days high:146.0
+E-mini DJIA Index(CBOT), Dec19, today close price is higher than 20 days high:27380.0
+FT-SE 100(EURONEXT), Dec19, today close price is higher than 20 days high:7342.5
+Lumber(CME), Jan20, today close price is higher than 20 days high:417.4
+NASDAQ 100 E-Mini(CME), Dec19, today close price is higher than 20 days high:8215.75
+Russell 2000 Mini(CME), Dec19, today close price is higher than 20 days high:1597.2
+Swiss Market Index(EUREX), Dec19, today close price is higher than 20 days high:10329.0
+10-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:98.82
+Natural Gas(NYM), Dec19, today close price is higher than 20 days high:2.821
+RBOB Gasoline(NYM), Dec19, today close price is higher than 20 days high:166.37
+FTSE MIB(ISE), Dec19, today close price is higher than 20 days high:23256.0
+KOSPI 200(KFE), Dec19, today close price is higher than 20 days high:283.2
+Mini-DAX(EUREX), Dec19, today close price is higher than 20 days high:13119.0
+Live Cattle(CME), Dec19, today close price is higher than 20 days high:120.08
+S&P Midcap 400(CME) e-Mini, Dec19, today close price is higher than 20 days high:1994.8
+DAX(EUREX), Dec19, today close price is higher than 20 days high:13119.0
+Soybean Oil(CBOT), Dec19, today close price is higher than 20 days high:31.87
+3-Year Aus T-Bonds(SFE), Dec19, today close price is lower than 20 days low:99.18
+Nikkei 225(CME) Yen, Dec19, today close price is higher than 20 days high:23130.0
+DJ EuroSTOXX 50(EUREX), Dec19, today close price is higher than 20 days high:3657.0
+Class III Milk(CME), Dec19, today close price is higher than 20 days high:19.7
+S & P 500 E-Mini(CME), Dec19, today close price is higher than 20 days high:3075.75

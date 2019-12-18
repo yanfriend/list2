@@ -1,0 +1,14 @@
+ALERTS for 2019/11/19 **********************
+Canadian Dollar(CME), Dec19, today close price is lower than 20 days low:75.37
+NASDAQ 100 E-Mini(CME), Dec19, today close price is higher than 20 days high:8341.5
+Canola(WCE), Jan20, today close price is higher than 20 days high:465.2
+Swiss Market Index(EUREX), Dec19, today close price is higher than 20 days high:10350.0
+e-miNY RBOB Gasoline(NYM), Dec19, today close price is lower than 20 days low:160.4
+NY Harbor ULSD(NYM), Dec19, today close price is lower than 20 days low:185.74
+Lean Hogs(CME), Feb20, today close price is lower than 20 days low:69.635
+SPI 200(SFE), Dec19, today close price is higher than 20 days high:6821.0
+Wheat(MGE), Mar20, today close price is lower than 20 days low:518.25
+S&P Midcap 400(CME) e-Mini, Dec19, today close price is higher than 20 days high:2002.1
+Rough Rice(CBOT), Jan20, today close price is higher than 20 days high:12.09
+3-Mth Short Sterling(LIFFE), Mar20, today close price is higher than 20 days high:99.29
+CAC 40(EURONEXT), Nov19, today close price is higher than 20 days high:5930.0
